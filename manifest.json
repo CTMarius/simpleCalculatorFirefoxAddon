@@ -1,12 +1,16 @@
 {
   "manifest_version": 2,
   "name": "Simple Calculator",
-  "version": "2.0",
-  "description": "A simple calculator extension.",
-  "icons": {
-    "128": "Icon.png"
-  },
-  "background": {
-    "page": "Popup.html"
-  }
+  "version": "2.1",
+ 
+    "icons": {
+        "48": "icons/Icon.png"
+    },
+    "browser_action": {
+        "default_icon": "icons/Icon.png",
+        "default_title": "Super Simple Calculator",
+        "default_popup": "popup/Popup.html"
+    },
+      "id": "org.simplecalculator.pto23jfk"
 }
+
